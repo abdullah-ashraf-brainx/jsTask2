@@ -1,0 +1,9 @@
+ul li {
+    margin: 20px;
+    padding: 20px;
+    list-style-type: none;
+}
+
+input[type=checkbox]:checked ~ span {
+    text-decoration: line-through!important;
+}
